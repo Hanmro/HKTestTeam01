@@ -32,3 +32,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestPr
 
 WebUI.closeBrowser()
 
+WebUI.comment('吴清锐增加的用例')
+
