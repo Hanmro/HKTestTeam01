@@ -17,21 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://example.testproject.io/web/')
-
-WebUI.setText(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/input_Full Name_name'), 'hkit')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/input_Password_password'), 'iGDxf8hSRT4=')
-
-WebUI.click(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/button_Logout'), 0)
-
-WebUI.click(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/button_Logout'))
-
-WebUI.closeBrowser()
-
-WebUI.comment('李明芳的用例')
-
